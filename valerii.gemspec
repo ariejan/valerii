@@ -14,14 +14,18 @@ Gem::Specification.new do |s|
   s.email = %q{ariejan@ariejan.net}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc.markdown"
+     "README.rdoc"
   ]
   s.files = [
-    "Rakefile",
+    ".gitignore",
+     "LICENSE",
+     "README.rdoc",
+     "Rakefile",
      "VERSION",
      "lib/valerii.rb",
      "test/test_helper.rb",
-     "test/test_valerii.rb"
+     "test/test_valerii.rb",
+     "valerii.gemspec"
   ]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/ariejan/valerii}
