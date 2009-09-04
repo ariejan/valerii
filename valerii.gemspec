@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{valerii}
-  s.version = "1.0.0"
+  s.version = "1.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ariejan de Vroom"]
-  s.date = %q{2009-09-03}
+  s.date = %q{2009-09-04}
   s.description = %q{Convert integers to short strings and vice versa.}
   s.email = %q{ariejan@ariejan.net}
   s.extra_rdoc_files = [
@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/valerii.rb",
      "test/test_helper.rb",
-     "test/test_valerii.rb",
+     "test/valerii_test.rb",
      "valerii.gemspec"
   ]
   s.has_rdoc = true
@@ -35,7 +35,7 @@ Gem::Specification.new do |s|
   s.summary = %q{Convert integers to short strings and vice versa.}
   s.test_files = [
     "test/test_helper.rb",
-     "test/test_valerii.rb"
+     "test/valerii_test.rb"
   ]
 
   if s.respond_to? :specification_version then
